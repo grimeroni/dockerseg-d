@@ -1,0 +1,11 @@
+Clone nginxVIZSGA
+cd nginxVIZSGA
+
+sudo bash do ---> tab
+
+cd nginxVIZSGA
+
+sudo docker image build . -t nev
+
+sudo docker container run -d -p 80:80 294a
+
